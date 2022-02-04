@@ -1,1 +1,1 @@
-# M1_ProjectGoal_App
+# M1_Tourism_Management_App
