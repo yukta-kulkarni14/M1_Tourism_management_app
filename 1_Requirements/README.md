@@ -19,7 +19,7 @@
  * Finally the Receipt of complete details are printed 
 
  # SWOT Analysis
- ## Strenght
+ ## Strenghts
  * Present different tour pacakages to customer with all details such as location, amount, events, etc.
  * Store the tourist details.
  * Print the receipt of booked tour pacakage.
