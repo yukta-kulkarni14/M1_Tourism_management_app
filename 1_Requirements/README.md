@@ -17,3 +17,14 @@
  4) Gender
  5) Age
  * Finally the Receipt of complete details are printed 
+
+ # SWOT Analysis
+ ## Strenght
+ * Present different tour pacakages to customer with all details such as location, amount, events, etc.
+ * Store the tourist details.
+ * Print the receipt of booked tour pacakage.
+ * use of visual studio code to implement this design.
+ * This system can be designed using C programming structures.
+
+ ## Weaknesses
+ * 
