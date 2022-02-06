@@ -4,19 +4,19 @@
 # Requirements
 
 ## High level requirements
- * user choice of International or india tour
- * Details of Passenger
- * Printing Receipt
+ * user choice of International or india tour.
+ * Details of Passenger.
+ * Printing Receipt.
 
  ## Low level requirements
  * Choice of International or india tour is given by switch case statements. Based on the choice particular pacakage tour with amount is displayed, again the user has the option to choose the package.
- * Passenger details are accessed 
+ * Passenger details are accessed .
  1) Number of passenger
  2) Date
  3) Name of passenger
  4) Gender
  5) Age
- * Finally the Receipt of complete details are printed 
+ * Finally the Receipt of complete details are printed.
 
  # SWOT Analysis
  ## Strenghts
