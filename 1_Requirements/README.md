@@ -27,4 +27,16 @@
  * This system can be designed using C programming structures.
 
  ## Weaknesses
- * 
+ * Lack of quality services such as hotels and airlines.
+ * Lack of technology improvement.
+ * System security like details entered by passenger should be safely stored.
+
+ ## Opportunities
+ * increase of personalised customer service.
+ * upgradation of services and offers should be given to customers.
+ * Exploring of new places to visit for tourists.
+
+ ## Threats
+ * Tourism on other side there is bad impact of environment pollution.
+ * Improper details given by tourist lead into problem for tourism package.
+ * misprint in receipt generation.
