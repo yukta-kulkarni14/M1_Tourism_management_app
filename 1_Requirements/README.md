@@ -32,7 +32,7 @@
  * System security like details entered by passenger should be safely stored.
 
  ## Opportunities
- * increase of personalised customer service.
+ * Increase of personalised customer service.
  * upgradation of services and offers should be given to customers.
  * Exploring of new places to visit for tourists.
 
