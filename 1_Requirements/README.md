@@ -9,7 +9,7 @@
  * Printing Receipt.
 
  ## Low level requirements
- * Choice of International or india tour is given by switch case statements. Based on the choice particular pacakage tour with amount is displayed, again the user has the option to choose the package.
+ * Choice of International or India tour is given by switch case statements. Based on the choice particular pacakage tour with amount is displayed, again the user has the option to choose the package.
  * Passenger details are accessed .
  1) Number of passenger
  2) Date
