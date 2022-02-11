@@ -22,18 +22,18 @@
  # SWOT Analysis
   ![swot_analysis](https://user-images.githubusercontent.com/98872185/153556274-5f89d1c4-67c8-46c0-ab7c-8036baec60f9.png)
 
-#4W's-1H
-WHO -
+# 4W's-1H
+## WHO -
 This system will help the torism company members to manage customer details and hotels.
 
-WHAT -
+## WHAT -
 Provide easy actions that can be done by the customers to book their tour.
 
-WHEN -
+## WHEN -
 Online management is trending in today's era and Tourism management system plays an important role in present century.
 
-WHERE -
+## WHERE -
 This is implemented in tourism companies and hotels.
 
-HOW -
+## HOW -
 It can be used by everyone , its user friendly , ease of use.
