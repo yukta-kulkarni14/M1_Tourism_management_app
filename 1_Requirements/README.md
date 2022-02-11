@@ -4,9 +4,12 @@
 # Requirements
 
 ## High level requirements
- * user choice of International or india tour.
- * Details of Passenger.
- * Printing Receipt.
+| ld | Description | Category |Status|
+| --- | --- | --- | --- |
+| HLR1 | User menu display regarding tour | Technical | Implemented |
+| HLR2| Choose of tour package | Technical | Implemented |
+| HLR3 | Details of Traveller | Technical | Implemented |
+| HLR4 | Generation of booked package receipt| Technical | Implemented |
 
  ## Low level requirements
  * Choice of International or India tour is given by switch case statements. Based on the choice particular pacakage tour with amount is displayed, again the user has the option to choose the package.
