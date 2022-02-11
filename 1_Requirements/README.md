@@ -12,14 +12,16 @@
 | HLR4 | Generation of booked package receipt| Technical | Implemented |
 
  ## Low level requirements
- * Choice of International or India tour is given by switch case statements. Based on the choice particular pacakage tour with amount is displayed, again the user has the option to choose the package.
- * Passenger details are accessed .
- 1) Number of passenger
- 2) Date
- 3) Name of passenger
- 4) Gender
- 5) Age
- * Finally the Receipt of complete details are printed.
+| ld | Description | Category |Status|
+| --- | --- | --- | --- |
+| LLR1 | user choice to select international or national tour | Technical | Implemented |
+| LLR2 | user choice of different tour package | Technical | Implemented |
+| LLR3 | Details of Traveller such as date, gender,name, age | Technical | Implemented |
+| LLR4 | Receipt if generated regarding booked package with details| Technical | Implemented |
+ 
+ 
+ 
+
 
  # SWOT Analysis
   ![swot_analysis](https://user-images.githubusercontent.com/98872185/153556274-5f89d1c4-67c8-46c0-ab7c-8036baec60f9.png)
