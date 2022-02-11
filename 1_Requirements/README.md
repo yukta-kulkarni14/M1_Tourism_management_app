@@ -3,11 +3,6 @@
 
 # Requirements
 
-<<<<<<< HEAD
-
- # SWOT Analysis
- 
-=======
 ## High level requirements
 | ld | Description | Category |Status|
 | --- | --- | --- | --- |
