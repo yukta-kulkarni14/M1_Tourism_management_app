@@ -19,4 +19,4 @@
  * Finally the Receipt of complete details are printed.
 
  # SWOT Analysis
-  https://user-images.githubusercontent.com/98872185/153556274-5f89d1c4-67c8-46c0-ab7c-8036baec60f9.png
+  ![swot_analysis](https://user-images.githubusercontent.com/98872185/153556274-5f89d1c4-67c8-46c0-ab7c-8036baec60f9.png)
