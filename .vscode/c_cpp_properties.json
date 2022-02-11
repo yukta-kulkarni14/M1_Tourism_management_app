@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\msys64\\mingw64"
+                "C:\\msys64\\mingw64",
+                "${workspaceFolder}/3_Implementation/Version2"
             ],
             "defines": [
                 "_DEBUG",

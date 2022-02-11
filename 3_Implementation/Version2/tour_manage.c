@@ -10,56 +10,14 @@
  * 
  */
 
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-struct node
-{
-    char name[30];
-    char gender[10];
-    int age;
-    struct node *next;
-};
-typedef struct node NODE;
-NODE *start = NULL;
-// Declaring Function Used In This Program
 
-//Global variables
-int k, amount;
-char selected_type[60], place[30], date[20];
 
-void main()
-{
-    int ch;
-    printf("\t\t\t\t****TOUR MANAGEMENT SYSTEM****\n");
-    printf("\t\t\t\t1. International "
-           "Tour Packages\n");
-    printf("\t\t\t\t2. India Tour Packages\n");
-    printf("\t\t\t\tEnter Choice : ");
-    scanf("%d", &ch);
-    switch (ch)
-     {
-    // Calling international() function
-    case 1:
-        international();
-        break;
- 
-    // Calling india() function
-    case 2:
-        india();
-        break;
- 
-    default:
-        printf("Enter Right Choice\n");
-        break;
-    }
-    traveller_details();// Calling details() function
-    display_receipt();// Calling receipt() function
-
-}
+#include"tour_manage.h"
 void india()
 {
     int c;
+    int k, amount;
+    char selected_type[60], place[30], date[20];
     strcpy(selected_type, "India Tour Package");
     printf("\t\t\t\t1. Simla Tour Packages    "
            "6 Days 7 Nights (18880/-)\n");
@@ -87,7 +45,8 @@ void india()
 void international()
 {
     int c;
- 
+    int k, amount;
+    char selected_type[60], place[30], date[20];
     strcpy(selected_type, "International Tour Package");
     printf("\t\t\t\t1. England Tour Packages "
            "6 Days 7 Nights (28880/-)\n");
@@ -116,7 +75,8 @@ void traveller_details()
 {
     int i, a;
     char val[20], gen[6];
- 
+    int k, amount;
+    char selected_type[60], place[30], date[20];
     printf("\t\t\t\tEnter Number Of Travellers: ");
     scanf("%d", &k);
     printf("\t\t\t\tEnter Date "
@@ -146,6 +106,7 @@ void traveller_details()
 void add_node(char lol[20],
               char der[6], int b)
 {
+    NODE *start = NULL;
     NODE *newptr = NULL, *ptr;
     newptr = (NODE*)malloc(sizeof(NODE));
     strcpy(newptr->name, lol);
@@ -163,18 +124,21 @@ void add_node(char lol[20],
 }
  
 // Function For Printing Receipt
-void display_receipt()
+void display_receipt(NODE *start)
 {
     int i, b;
+    int k, amount;
+    char selected_type[60], place[30], date[20];
     NODE* ptr = start;
     printf("\n\t\t\t\t**Take Screenshot "
            "For Further Use**\n");
-    for (i = 1; i <= k; i++) 
-    {
+    for (i = 1; i <= k; i++)
+     {
         printf("\t\t%dst Traveller " "Name: ",i);
         printf("%s",ptr->name);
         printf("\t\t%dst Traveller "
-               "Gender: ",i);
+               "Gender: ",
+               i);
         printf("%s",ptr->gender);
         printf("\t\t%dst Traveller "
                "Age: %d\n\n",
