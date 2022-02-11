@@ -37,4 +37,3 @@ This is implemented in tourism companies and hotels.
 
 ## HOW -
 It can be used by everyone , its user friendly , ease of use.
->>>>>>> 8016fe699fc8ddf52efe191478f525cc89ec5a99
