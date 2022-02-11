@@ -19,24 +19,4 @@
  * Finally the Receipt of complete details are printed.
 
  # SWOT Analysis
- ## Strenghts
- * Present different tour pacakages to customer with all details such as location, amount, events, etc.
- * Store the tourist details.
- * Print the receipt of booked tour package.
- * use of visual studio code to implement this design.
- * This system can be designed using C programming structures.
-
- ## Weaknesses
- * Lack of quality services such as hotels and airlines.
- * Lack of technology improvement.
- * System security like details entered by passenger should be safely stored.
-
- ## Opportunities
- * Increase of personalised customer service.
- * upgradation of services and offers should be given to customers.
- * Exploring of new places to visit for tourists.
-
- ## Threats
- * Tourism on other side there is bad impact of environment pollution.
- * Improper details given by tourist lead into problem for tourism package.
- * misprint in receipt generation.
+  https://user-images.githubusercontent.com/98872185/153556274-5f89d1c4-67c8-46c0-ab7c-8036baec60f9.png
