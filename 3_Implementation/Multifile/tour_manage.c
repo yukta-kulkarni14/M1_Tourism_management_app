@@ -13,12 +13,12 @@
 
 
 #include"tour_manage.h"
+ NODE *start=NULL;
+ int k, amount;
+ char selected_type[60], place[30], date[20];
 void india()
 {
     int c;
-    NODE *start=NULL;
-    int k, amount;
-    char selected_type[60], place[30], date[20];
     strcpy(selected_type, "India Tour Package");
     printf("\t\t\t\t1. Kerala Tour Packages "
            "5 Days 4 Nights (19880/-)\n");

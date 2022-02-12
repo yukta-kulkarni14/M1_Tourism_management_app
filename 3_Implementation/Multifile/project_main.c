@@ -1,5 +1,5 @@
 #include "tour_manage.h"
-extern NODE *start=NULL;
+extern NODE *start;
 extern int k, amount;
 extern char selected_type[60], place[30], date[20];
 void main()
