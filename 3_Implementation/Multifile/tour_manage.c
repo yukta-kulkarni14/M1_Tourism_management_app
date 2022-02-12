@@ -13,7 +13,7 @@
 
 
 #include"tour_manage.h"
- NODE *start=NULL;
+NODE *start=NULL;
  int k, amount;
  char selected_type[60], place[30], date[20];
 void india()
@@ -128,9 +128,9 @@ void display_receipt()
     printf("\n\t\t\t\t**Take Screenshot "
            "For Further Use**\n");
     for (i = 1; i <= k; i++) {
-        printf("\t%dst Traveller  Name :%s\n ", i, ptr->name);
-        printf("\t%dst Traveller Gender:%s\n ", i,ptr->gender);
-        printf("\t%dst Traveller Age: %d\n ", i, ptr->age);
+        printf("\t%dst Traveller  Name : %s \n  ",  i,  ptr->name);
+        printf("\t%dst Traveller Gender: %s \n ", i,ptr->gender);
+        printf("\t%dst Traveller Age: %d \n ", i, ptr->age);
         printf("\t--------------------------\n");
         ptr = ptr->next;
     }

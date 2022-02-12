@@ -1,7 +1,8 @@
 /**
  * @file tour_manage.h
- * @author your name (you@domain.com)
- * @brief 
+ * @author yukta k(yuktakulkarnirk@gmail.com)
+ * @brief The Tourism management system allows user to access all the details regarding complete tour pacakage such as location, 
+ * amount, events, etc. The main purpose of this system is to help tourism companies to manage customer details and hotels.
  * @version 0.1
  * @date 2022-02-10
  * 
@@ -27,27 +28,27 @@ typedef struct node NODE;
 
 void india();
 /**
- * @brief 
+ * @brief user has to enter their choice to choose their their india tour package.
  * 
  */
 void international();
 /**
- * @brief 
+ * @brief user has to enter their choice to choose their their international tour package.
  * 
  */
 void traveller_details();
 /**
- * @brief 
+ * @brief user has to enter their personal details like number of people travelling, date, name, gender, age.
  * 
  */
 void add_node(char lol[20],char der[6], int b);
 /**
- * @brief 
+ * @brief node is created to add traveller details based on number of travellers.
  * 
  */
 void display_receipt();
 /**
- * @brief 
+ * @brief Booked package tour is displayed with complete details.
  * 
  */
 
