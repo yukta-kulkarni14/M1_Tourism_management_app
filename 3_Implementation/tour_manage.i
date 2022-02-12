@@ -2126,7 +2126,7 @@ char selected_type[60], place[30], date[20];
 void main()
 {
     int ch;
-    printf("\t\t\t\t****TOUR MANAGEMENT SYSTEM****\n");
+    printf("\t\t\t\t***TOUR MANAGEMENT SYSTEM*\n");
     printf("\t\t\t\t1. International "
            "Tour Packages\n");
     printf("\t\t\t\t2. India Tour Packages\n");
@@ -2156,56 +2156,56 @@ void india()
 {
     int c;
     strcpy(selected_type, "India Tour Package");
-    printf("\t\t\t\t1. Simla Tour Packages    "
-           "6 Days 7 Nights (18880/-)\n");
-    printf("\t\t\t\t2. Kashmir Tour Packages "
-           "5 Days 4 Nights (35500/-)\n");
-    printf("\t\t\t\t3. Kolkata Tour Packages "
-           "11 Days 10 Nights (10000/-)\n");
+    printf("\t\t\t\t1. Kerala Tour Packages "
+           "5 Days 4 Nights (19880/-)\n");
+    printf("\t\t\t\t2. Manali Tour Packages "
+           "6 Days 5 Nights (37500/-)\n");
+    printf("\t\t\t\t3. Himachal Tour Packages "
+           "9 Days 8 Nights (20000/-)\n");
     printf("\t\t\t\tEnter Choice: ");
     scanf("%d", &c);
     if (c == 1) {
-        strcpy(place, "Simla Tour");
-        amount = 18880;
+        strcpy(place, "Kerala Tour");
+        amount = 19880;
     }
     else if (c == 2) {
-        strcpy(place, "Kashmir Tour");
-        amount = 35500;
+        strcpy(place, "Manali Tour");
+        amount = 37500;
     }
     else if (c == 3) {
-        strcpy(place, "Kolkata Tour");
-        amount = 10000;
+        strcpy(place, "Himachal Tour");
+        amount = 20000;
     }
     else
-        printf("Enter Correct Choice\n");
+        printf("Enter valid Choice\n");
 }
 void international()
 {
     int c;
 
     strcpy(selected_type, "International Tour Package");
-    printf("\t\t\t\t1. England Tour Packages "
-           "6 Days 7 Nights (28880/-)\n");
-    printf("\t\t\t\t2. Thailand Tour Packages "
-           "5 Days 4 Nights (15500/-)\n");
-    printf("\t\t\t\t3. New York Tour Packages "
-           "11 Days 10 Nights (567800/-)\n");
+    printf("\t\t\t\t1. Maldives Tour Packages "
+           "6 Days 5 Nights (656000/-)\n");
+    printf("\t\t\t\t2. Switzerland Tour Packages "
+           "5 Days 4 Nights (29000/-)\n");
+    printf("\t\t\t\t3. Europe Tour Packages "
+           "11 Days 10 Nights (30000/-)\n");
     printf("\t\t\t\tEnter Choice: ");
     scanf("%d", &c);
     if (c == 1) {
-        strcpy(place, "England Tour");
-        amount = 28880;
+        strcpy(place, "Maldives Tour");
+        amount = 656000;
     }
     else if (c == 2) {
-        strcpy(place, "Thailand Tour");
-        amount = 15500;
+        strcpy(place, "Switzerland Tour");
+        amount = 29000;
     }
     else if (c == 3) {
-        strcpy(place, "New York Tour");
-        amount = 567800;
+        strcpy(place, "Europe Tour");
+        amount = 30000;
     }
     else
-        printf("Enter Correct Choice\n");
+        printf("Enter valid Choice\n");
 }
 void traveller_details()
 {
@@ -2214,36 +2214,35 @@ void traveller_details()
 
     printf("\t\t\t\tEnter Number Of Travellers: ");
     scanf("%d", &k);
-    printf("\t\t\t\tEnter Date "
-           "(DD/MM/YY): ");
+    printf("\t\t\t\tEnter Date (DD/MM/YY): ");
     fflush(
-# 129 "tour_manage.c" 3 4
+# 128 "tour_manage.c" 3 4
           stdin
-# 129 "tour_manage.c"
+# 128 "tour_manage.c"
                );
     scanf("%s",date);
     for (i = 1; i <= k; i++)
     {
         printf("\t\t\t\tEnter The %dth Traveller Name: ",i);
         fflush(
-# 134 "tour_manage.c" 3 4
+# 133 "tour_manage.c" 3 4
               stdin
-# 134 "tour_manage.c"
+# 133 "tour_manage.c"
                    );
         scanf("%s",val);
         printf("\t\t\t\tEnter The %dth Traveller Gender: ",i);
         fflush(
-# 137 "tour_manage.c" 3 4
+# 136 "tour_manage.c" 3 4
               stdin
-# 137 "tour_manage.c"
+# 136 "tour_manage.c"
                    );
         scanf("%s",gen);
         printf("\t\t\t\tEnter The %dth Traveller Age: ",
                i);
         fflush(
-# 141 "tour_manage.c" 3 4
+# 140 "tour_manage.c" 3 4
               stdin
-# 141 "tour_manage.c"
+# 140 "tour_manage.c"
                    );
         scanf("%d", &a);
 
@@ -2258,31 +2257,31 @@ void add_node(char lol[20],
               char der[6], int b)
 {
     NODE *newptr = 
-# 154 "tour_manage.c" 3 4
+# 153 "tour_manage.c" 3 4
                   ((void *)0)
-# 154 "tour_manage.c"
+# 153 "tour_manage.c"
                       , *ptr;
     newptr = (NODE*)malloc(sizeof(NODE));
     strcpy(newptr->name, lol);
     strcpy(newptr->gender, der);
     newptr->age = b;
     newptr->next = 
-# 159 "tour_manage.c" 3 4
+# 158 "tour_manage.c" 3 4
                   ((void *)0)
-# 159 "tour_manage.c"
+# 158 "tour_manage.c"
                       ;
     if (start == 
-# 160 "tour_manage.c" 3 4
+# 159 "tour_manage.c" 3 4
                 ((void *)0)
-# 160 "tour_manage.c"
+# 159 "tour_manage.c"
                     )
         start = newptr;
     else {
         ptr = start;
         while (ptr->next != 
-# 164 "tour_manage.c" 3 4
+# 163 "tour_manage.c" 3 4
                            ((void *)0)
-# 164 "tour_manage.c"
+# 163 "tour_manage.c"
                                )
             ptr = ptr->next;
         ptr->next = newptr;
@@ -2297,25 +2296,18 @@ void display_receipt()
     printf("\n\t\t\t\t**Take Screenshot "
            "For Further Use**\n");
     for (i = 1; i <= k; i++) {
-        printf("\t\t%dst Traveller " "Name: ",i);
-        printf("%s",ptr->name);
-        printf("\t\t%dst Traveller "
-               "Gender: ",
-               i);
-        printf("%s",ptr->gender);
-        printf("\t\t%dst Traveller "
-               "Age: %d\n\n",
-               i, ptr->age);
+        printf("\t%dst Traveller  Name :%s\n ",i,ptr->name);
+        printf("\t%dst Traveller Gender:%s\n ",i,ptr->gender);
+        printf("\t%dst Traveller Age: %d\n ",i,ptr->age);
+        printf("\t--------------------------\n");
         ptr = ptr->next;
     }
-    printf("\t\tSelected Type: ");
-    printf("%s",selected_type);
-    printf("\t\tPackage: ");
-    printf("%s",place);
-    printf("\t\tDate: ");
-    printf("%s",date);
+    printf("\tSelected Type: %s\n ",selected_type);
+    printf("\tPackage: %s\n",place);
+    printf("\tDate:%s\n ",date);
     b = amount * k;
-    printf("\t\tTotal Amount: %d", b);
-    printf("\n\t\t\t\t**Thank You For "
+    printf("\t--------------------------\n");
+    printf("\tTotal Amount: %d", b);
+    printf("\n\n\t\t\t\t**Thank You For "
            "registration**\n");
 }

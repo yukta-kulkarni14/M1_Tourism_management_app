@@ -15,7 +15,7 @@ start:
 	.section	.rodata
 	.align 8
 .LC0:
-	.string	"\t\t\t\t****TOUR MANAGEMENT SYSTEM****"
+	.string	"\t\t\t\t***TOUR MANAGEMENT SYSTEM*"
 	.align 8
 .LC1:
 	.string	"\t\t\t\t1. International Tour Packages"
@@ -95,17 +95,17 @@ main:
 	.section	.rodata
 	.align 8
 .LC6:
-	.string	"\t\t\t\t1. Simla Tour Packages    6 Days 7 Nights (18880/-)"
+	.string	"\t\t\t\t1. Kerala Tour Packages 5 Days 4 Nights (19880/-)"
 	.align 8
 .LC7:
-	.string	"\t\t\t\t2. Kashmir Tour Packages 5 Days 4 Nights (35500/-)"
+	.string	"\t\t\t\t2. Manali Tour Packages 6 Days 5 Nights (37500/-)"
 	.align 8
 .LC8:
-	.string	"\t\t\t\t3. Kolkata Tour Packages 11 Days 10 Nights (10000/-)"
+	.string	"\t\t\t\t3. Himachal Tour Packages 9 Days 8 Nights (20000/-)"
 .LC9:
 	.string	"\t\t\t\tEnter Choice: "
 .LC10:
-	.string	"Enter Correct Choice"
+	.string	"Enter valid Choice"
 	.text
 	.globl	india
 	.type	india, @function
@@ -145,31 +145,29 @@ india:
 	movl	-12(%rbp), %eax
 	cmpl	$1, %eax
 	jne	.L9
-	movabsq	$8022072439056722259, %rax
+	movabsq	$6061952216559936843, %rax
 	movq	%rax, place(%rip)
-	movw	$29301, 8+place(%rip)
-	movb	$0, 10+place(%rip)
-	movl	$18880, amount(%rip)
+	movl	$7501167, 8+place(%rip)
+	movl	$19880, amount(%rip)
 	jmp	.L14
 .L9:
 	movl	-12(%rbp), %eax
 	cmpl	$2, %eax
 	jne	.L11
-	movabsq	$2338047075183452491, %rax
+	movabsq	$6061961012652695885, %rax
 	movq	%rax, place(%rip)
-	movl	$1920298836, 8+place(%rip)
-	movb	$0, 12+place(%rip)
-	movl	$35500, amount(%rip)
+	movl	$7501167, 8+place(%rip)
+	movl	$37500, amount(%rip)
 	jmp	.L14
 .L11:
 	movl	-12(%rbp), %eax
 	cmpl	$3, %eax
 	jne	.L12
-	movabsq	$2333274043717545803, %rax
+	movabsq	$7809638004882762056, %rax
 	movq	%rax, place(%rip)
-	movl	$1920298836, 8+place(%rip)
-	movb	$0, 12+place(%rip)
-	movl	$10000, amount(%rip)
+	movl	$1970230304, 8+place(%rip)
+	movw	$114, 12+place(%rip)
+	movl	$20000, amount(%rip)
 	jmp	.L14
 .L12:
 	leaq	.LC10(%rip), %rdi
@@ -190,13 +188,13 @@ india:
 	.section	.rodata
 	.align 8
 .LC11:
-	.string	"\t\t\t\t1. England Tour Packages 6 Days 7 Nights (28880/-)"
+	.string	"\t\t\t\t1. Maldives Tour Packages 6 Days 5 Nights (656000/-)"
 	.align 8
 .LC12:
-	.string	"\t\t\t\t2. Thailand Tour Packages 5 Days 4 Nights (15500/-)"
+	.string	"\t\t\t\t2. Switzerland Tour Packages 5 Days 4 Nights (29000/-)"
 	.align 8
 .LC13:
-	.string	"\t\t\t\t3. New York Tour Packages 11 Days 10 Nights (567800/-)"
+	.string	"\t\t\t\t3. Europe Tour Packages 11 Days 10 Nights (30000/-)"
 	.text
 	.globl	international
 	.type	international, @function
@@ -238,31 +236,31 @@ international:
 	movl	-12(%rbp), %eax
 	cmpl	$1, %eax
 	jne	.L16
-	movabsq	$2334111871594360389, %rax
+	movabsq	$8315182482037956941, %rax
 	movq	%rax, place(%rip)
-	movl	$1920298836, 8+place(%rip)
-	movb	$0, 12+place(%rip)
-	movl	$28880, amount(%rip)
+	movl	$1970230304, 8+place(%rip)
+	movw	$114, 12+place(%rip)
+	movl	$656000, amount(%rip)
 	jmp	.L21
 .L16:
 	movl	-12(%rbp), %eax
 	cmpl	$2, %eax
 	jne	.L18
-	movabsq	$7236828769483319380, %rax
+	movabsq	$7814419880054716243, %rax
+	movabsq	$8247620699710320225, %rdx
 	movq	%rax, place(%rip)
-	movl	$1970230304, 8+place(%rip)
-	movw	$114, 12+place(%rip)
-	movl	$15500, amount(%rip)
+	movq	%rdx, 8+place(%rip)
+	movb	$0, 16+place(%rip)
+	movl	$29000, amount(%rip)
 	jmp	.L21
 .L18:
 	movl	-12(%rbp), %eax
 	cmpl	$3, %eax
 	jne	.L19
-	movabsq	$7742373137990772046, %rax
+	movabsq	$6061956632021202245, %rax
 	movq	%rax, place(%rip)
-	movl	$1970230304, 8+place(%rip)
-	movw	$114, 12+place(%rip)
-	movl	$567800, amount(%rip)
+	movl	$7501167, 8+place(%rip)
+	movl	$30000, amount(%rip)
 	jmp	.L21
 .L19:
 	leaq	.LC10(%rip), %rdi
@@ -466,22 +464,24 @@ add_node:
 .LC20:
 	.string	"\n\t\t\t\t**Take Screenshot For Further Use**"
 .LC21:
-	.string	"\t\t%dst Traveller Name: "
+	.string	"\t%dst Traveller  Name :%s\n "
 .LC22:
-	.string	"\t\t%dst Traveller Gender: "
+	.string	"\t%dst Traveller Gender:%s\n "
 .LC23:
-	.string	"\t\t%dst Traveller Age: %d\n\n"
+	.string	"\t%dst Traveller Age: %d\n "
 .LC24:
-	.string	"\t\tSelected Type: "
+	.string	"\t--------------------------"
 .LC25:
-	.string	"\t\tPackage: "
+	.string	"\tSelected Type: %s\n "
 .LC26:
-	.string	"\t\tDate: "
+	.string	"\tPackage: %s\n"
 .LC27:
-	.string	"\t\tTotal Amount: %d"
-	.align 8
+	.string	"\tDate:%s\n "
 .LC28:
-	.string	"\n\t\t\t\t**Thank You For registration**"
+	.string	"\tTotal Amount: %d"
+	.align 8
+.LC29:
+	.string	"\n\n\t\t\t\t**Thank You For registration**"
 	.text
 	.globl	display_receipt
 	.type	display_receipt, @function
@@ -502,25 +502,17 @@ display_receipt:
 	movl	$1, -16(%rbp)
 	jmp	.L33
 .L34:
+	movq	-8(%rbp), %rdx
 	movl	-16(%rbp), %eax
 	movl	%eax, %esi
 	leaq	.LC21(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
 	movq	-8(%rbp), %rax
-	movq	%rax, %rsi
-	leaq	.LC16(%rip), %rdi
-	movl	$0, %eax
-	call	printf@PLT
+	leaq	30(%rax), %rdx
 	movl	-16(%rbp), %eax
 	movl	%eax, %esi
 	leaq	.LC22(%rip), %rdi
-	movl	$0, %eax
-	call	printf@PLT
-	movq	-8(%rbp), %rax
-	addq	$30, %rax
-	movq	%rax, %rsi
-	leaq	.LC16(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
 	movq	-8(%rbp), %rax
@@ -530,6 +522,8 @@ display_receipt:
 	leaq	.LC23(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
+	leaq	.LC24(%rip), %rdi
+	call	puts@PLT
 	movq	-8(%rbp), %rax
 	movq	48(%rax), %rax
 	movq	%rax, -8(%rbp)
@@ -538,37 +532,30 @@ display_receipt:
 	movl	k(%rip), %eax
 	cmpl	%eax, -16(%rbp)
 	jle	.L34
-	leaq	.LC24(%rip), %rdi
-	movl	$0, %eax
-	call	printf@PLT
 	leaq	selected_type(%rip), %rsi
-	leaq	.LC16(%rip), %rdi
-	movl	$0, %eax
-	call	printf@PLT
 	leaq	.LC25(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
 	leaq	place(%rip), %rsi
-	leaq	.LC16(%rip), %rdi
-	movl	$0, %eax
-	call	printf@PLT
 	leaq	.LC26(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
 	leaq	date(%rip), %rsi
-	leaq	.LC16(%rip), %rdi
+	leaq	.LC27(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
 	movl	amount(%rip), %edx
 	movl	k(%rip), %eax
 	imull	%edx, %eax
 	movl	%eax, -12(%rbp)
+	leaq	.LC24(%rip), %rdi
+	call	puts@PLT
 	movl	-12(%rbp), %eax
 	movl	%eax, %esi
-	leaq	.LC27(%rip), %rdi
+	leaq	.LC28(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
-	leaq	.LC28(%rip), %rdi
+	leaq	.LC29(%rip), %rdi
 	call	puts@PLT
 	nop
 	leave
