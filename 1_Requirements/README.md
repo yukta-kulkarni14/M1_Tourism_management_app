@@ -1,5 +1,5 @@
 # Description
-* The Tourism management system allows user to access all the details regarding complete tour pacakage such as traveller details, amount, events, etc. The main purpose of this system is to help tourism companies to manage customer details and hotels.
+* The Tourism management system allows user to access all the details regarding complete tour package such as traveller details, amount, events, etc. The main purpose of this system is to help tourism companies to manage customer details and hotels.
 
 # Requirements
 
@@ -24,7 +24,7 @@
 
 # 4W's-1H
 ## WHO -
-This system will help the torism company members to manage customer details and hotels.
+This system will help the tourism company members to manage customer details and hotels.
 
 ## WHAT -
 Provide easy actions that can be done by the customers to book their tour.
