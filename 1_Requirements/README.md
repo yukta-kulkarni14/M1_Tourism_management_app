@@ -1,6 +1,22 @@
 # Description
 * The Tourism management system allows user to access all the details regarding complete tour package such as traveller details, amount, events, etc. The main purpose of this system is to help tourism companies to manage customer details and hotels.
 
+# Identifying feature 
+
+* Choice of international and India tour. 
+
+* Display of different places based on selected tour type. 
+
+* Traveller details are stored.  
+
+* Generating nodes based on number of Traveller. 
+
+* Display of booked tour receipt. 
+
+# State of Art/Research 
+
+Tourism management project helps to automate all the process of travel and tourism, that deals with booking, display of visiting places with package, user details etc. This design is built using simple C programming structures. The main purpose is to help tourism companies to manage customer details and hotels. This design is very user friendly, easy to access the details regarding tour package with confirmation details displayed on generated receipt. 
+
 # Requirements
 
 ## High level requirements
