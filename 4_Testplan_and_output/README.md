@@ -12,7 +12,7 @@
 | Test ID | Description | Expected i/p | Expected o/p | Actual o/p | Type of test |
 | --- | --- | --- | --- | --- | --- |
 | L_01 | Display of choice between international and india tour | User choice | Based on the choice particular fumction is called | Based on the choice particular fumction is called | Technical |
-| H_02 | Display of different tour packages for the corresponding selected type | user choice | Reading of input and copying data to string | Reading of input and copying data to string | Technical |
-| H_03 | Traveller details should be entered by user | enter details | Reading of input and adding node function is called based on number of traveller |  Reading of input and adding node function is called based on number of traveller | Technical |
-| H_04 | Booked tour receipt is generated | - |  Detailed information of traveller is displayed with selected tour package | Detailed information of traveller is displayed with selected tour package | Technical |
+| L_02 | Display of different tour packages for the corresponding selected type | user choice | Reading of input and copying data to string | Reading of input and copying data to string | Technical |
+| L_03 | Traveller details should be entered by user | enter details | Reading of input and adding node function is called based on number of traveller |  Reading of input and adding node function is called based on number of traveller | Technical |
+| L_04 | Booked tour receipt is generated | - |  Detailed information of traveller is displayed with selected tour package | Detailed information of traveller is displayed with selected tour package | Technical |
 
