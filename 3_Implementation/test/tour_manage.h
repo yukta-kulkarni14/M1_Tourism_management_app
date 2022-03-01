@@ -44,7 +44,9 @@ void traveller_details();
 void add_node(char lol[20],char der[6], int b);
 /**
  * @brief node is created to add traveller details based on number of travellers.
- * 
+ * @param[in] name
+ * @param[in] gender
+ * @param[in] age
  */
 void display_receipt();
 /**
