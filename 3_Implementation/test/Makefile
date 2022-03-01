@@ -17,7 +17,7 @@ else
 endif
 
 Build: project_main.c tour_manage.c unity.c
-	gcc project_main.c tour_manage.c unity. -o $(call FixPath, $(PROJ_NAME).$(EXEC))
+	gcc project_main.c tour_manage.c unity.c -o $(call FixPath, $(PROJ_NAME).$(EXEC))
 
 Run :  Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
