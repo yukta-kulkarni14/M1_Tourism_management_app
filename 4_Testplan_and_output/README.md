@@ -16,3 +16,8 @@
 | L_03 | Traveller details should be entered by user | enter details | Reading of input and adding node function is called based on number of traveller |  Reading of input and adding node function is called based on number of traveller | Technical |
 | L_04 | Booked tour receipt is generated | - |  Detailed information of traveller is displayed with selected tour package | Detailed information of traveller is displayed with selected tour package | Technical |
 
+# Best Practices
+1) Presentation of both low level and high level testplan.
+2) Testing of expected output with actual output.
+3) Mentioned all possible inputs.
+4) Requirement and Technical type of testing is done
