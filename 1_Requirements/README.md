@@ -53,3 +53,11 @@ This is implemented in tourism companies and hotels.
 
 ## HOW -
 It can be used by everyone , its user friendly , ease of use.
+
+# Best Method Followed
+* To improve the readability of code there is usage of modular functions in this design.
+* Structures are used to combine the data of different data types together.
+* Usage of arrays so that similar elements can be stored at contiguous memory locations.
+* Pointers are used to locate memory dyanamically.
+* Headerfiles are included for standard input/output operations.
+* Unit testing is done to meet the quality standards before it is deployed.
