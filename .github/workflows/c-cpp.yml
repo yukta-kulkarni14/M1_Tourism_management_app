@@ -1,0 +1,20 @@
+name: C/C++ CI
+
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: make
+      run: make 
+/home/runner/work/M1_tour_manage_APP\M1_Tourism_management_app\3_Implementation
